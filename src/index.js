@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+//import Square from './components/square';
+import Grid from './components/grid';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode>, 
+    <Grid />,
   </React.StrictMode>,
   document.getElementById('root')
 );
